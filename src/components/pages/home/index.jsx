@@ -6,7 +6,7 @@ import SectionWithList from '../../organisms/SectionWithList';
 import Book from '../../atoms/svg/book';
 import Laptop from '../../atoms/svg/laptop';
 import Logo from '../../atoms/svg/logo';
-import './index.css';
+import './index.scss';
 import ContactForm from '../../organisms/ContactForm';
 
 function Home() {
@@ -26,7 +26,7 @@ function Home() {
             navigate('/signup');
           },
         }}
-        image={<img src={require('../../atoms/images/Group 4565.png')} alt='not found' style={{ marginTop: '-160px' }} />}
+        image={<img src={require('../../atoms/images/Group 4565.png')} alt='not found' style={{ marginTop: '-80px' }} />}
       ></SectionWithImage>
 
       <SectionWithList

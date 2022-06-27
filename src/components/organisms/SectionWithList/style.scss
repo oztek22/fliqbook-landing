@@ -1,0 +1,32 @@
+.section-with-list {
+  &.section {
+    background-color: #E6F5EA;
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 160px);
+    justify-content: space-around;
+    padding: 80px;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .list-item {
+    width: 200px;
+  }
+  
+  .list-title {
+    margin: 12px 0;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #238E43;
+  }
+  
+  .list-description {
+    margin: 12px 0;
+    font-size: 22px;
+    line-height: 33px;
+    color: #353D54;
+  }
+
+}

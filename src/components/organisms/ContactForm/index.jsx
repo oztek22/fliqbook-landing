@@ -1,10 +1,10 @@
 import React from 'react';
 import Button from '../../atoms/button';
-import './style.css';
+import './style.scss';
 
 function ContactForm(props) {
   return (
-    <div className='section-header' dir='rtl' style={{backgroundColor: '#E6F5EA'}}>
+    <div className='contact-form section-header' dir='rtl' style={{backgroundColor: '#E6F5EA'}}>
       <div className='section-left'>
         <span className='section-tagLiner'> YOUR TIME IS VALUABLE </span>
         <span className='section-header-text'> Get answers quick</span>
