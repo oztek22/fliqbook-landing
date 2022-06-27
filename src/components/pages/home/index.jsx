@@ -8,6 +8,7 @@ import Laptop from '../../atoms/svg/laptop';
 import Logo from '../../atoms/svg/logo';
 import './index.scss';
 import ContactForm from '../../organisms/ContactForm';
+import Footer from '../../organisms/Footer';
 
 function Home() {
   const navigate = useNavigate();
@@ -106,6 +107,8 @@ function Home() {
 
       <ContactForm
         image={<img src={require('../../atoms/images/g10.png')} alt='not found' />}></ContactForm>
+      
+      <Footer />
     </div>
   );
 }
