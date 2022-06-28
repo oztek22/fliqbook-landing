@@ -4,7 +4,7 @@ import './style.scss';
 
 function ContactForm(props) {
   return (
-    <div className='contact-form section-with-image' style={{ backgroundColor: '#E6F5EA' }}>
+    <div className='contact-form section-with-image'>
       <div className='section-left'>{props.image}</div>
       <div className='section-right'>
         <span className='title'> YOUR TIME IS VALUABLE </span>

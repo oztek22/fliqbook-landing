@@ -9,14 +9,6 @@
     direction: rtl;
   }
 
-  .section-left {
-    display: flex;
-    flex: 1 1 0;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 40px;
-  }
-
   .section-right {
     display: flex;
     flex: 1 1 0;
@@ -24,32 +16,6 @@
 
   .section-right img {
     max-width: 100%;
-  }
-
-  .tagLiner {
-    letter-spacing: 0.01em;
-    color: #238e43;
-    flex: none;
-    margin: 20px 0;
-  }
-
-  .header-text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-  }
-
-  .subheader {
-    border-left: 4px solid #9dcdcf;
-    padding-left: 12px;
-    margin-bottom: 20px;
-  }
-
-  .description {
-    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 768px) {

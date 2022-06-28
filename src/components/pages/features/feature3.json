@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "header": "Convert your amazon mTR into graphs, charts for better visualization",
+      "list": [
+        {"text": "Understand the contribution of individual ASIN in your total sales and revenue."},
+        {"text": "Get percentage of the order amounts that are returned, replaced or cancelled from the total monthly transaction"},
+        {"text": "Check the contribution of gst and tcs from your total Amazon sales, ASIN wise sales"},
+        {"text": "Receive accurate total margin and ASIN wise margin distribution"}
+      ],
+      "img": {
+        "src": "3.png"
+      }
+    }
+  ]
+}

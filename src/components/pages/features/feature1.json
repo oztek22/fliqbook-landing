@@ -1,0 +1,33 @@
+{
+  "sections": [
+    {
+      "header": "Convert your Amazon MTR into GSTR-1",
+      "description": "Create .csv or .json file quickly and accurately. Our Shark and Whale plan users can even file gstr1 online directly from Amazon MTR using our software.",
+      "img": {
+        "src": "3.png"
+      },
+      "button": {
+        "label": "SHOW ME THE PLANS",
+        "navigateTo": "/pricing"
+      }
+    },
+    {
+      "header": "Quick and easy process to get GST compatible files",
+      "description": "For .csv or .json file, all you need to do is to upload the Amazon MTR on FliqBook application and then click on the 'download .csvs' button to download b2b.csv, b2cs.csv and cdnr.csv files to be imported inside the GST offline tool. Otherwise, you can click on the 'download .json' button to download the returns.json file to be directly imported into GST's online portal.",
+      "img": {
+        "src": "3.png",
+        "style": {
+          "transform": "scaleX(-1)"
+        },
+        "pos": 1
+      }
+    },
+    {
+      "header": "Get Results in less than 10 minutes!",
+      "description": "This completely replaces the inaccurate and slow manual process of converting Amazon MTR into the gst-ready format and then typing or copy-pasting individual entries for gstr1 filing.With Fliqbook, this entire process will take less than 10 minutes!",
+      "img": {
+        "src": "3.png"
+      }
+    }
+  ]
+}

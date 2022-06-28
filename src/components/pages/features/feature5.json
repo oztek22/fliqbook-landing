@@ -1,0 +1,12 @@
+{
+  "sections": [
+    {
+      "header": "Return analysis and payments reconciliation",
+      "description": "Return analysis uses your Amazon return reports to analyze and reconcile your returns. Fliqbook also reconciles your Amazon payments by cross checking your Amazon seller central account with bank account for any discrepancies. The process that might consume your hours can now be performed in a few minutes!",
+      "img": {
+        "src": "3.png"
+      }
+    }
+  ],
+  "textSection": "Your recurring bill payments and salary payments can now be automated by connecting your bank with Fliqbook safely and swiftly!"
+}

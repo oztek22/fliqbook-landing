@@ -15,7 +15,12 @@ class App extends Component {
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-        <Route path='/features' element={<Features />} />
+        <Route path='/features' element={<Features feature={1} />} />
+        <Route path='/features/1' element={<Features feature={1} />} />
+        <Route path='/features/2' element={<Features feature={2} />} />
+        <Route path='/features/3' element={<Features feature={3} />} />
+        <Route path='/features/4' element={<Features feature={4} />} />
+        <Route path='/features/5' element={<Features feature={5} />} />
         <Route path='/pricing' element={<Pricing />} />
       </Routes>
     );

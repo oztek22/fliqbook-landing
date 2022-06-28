@@ -4,15 +4,16 @@ import Logo from '../../atoms/svg/logo';
 import Menu from '../../atoms/svg/menu';
 import './style.scss';
 
-function Header() {
+function Header(props) {
   const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const isBodyMargined = window.innerWidth > 1280;
 
   return (
-    <div className='header'>
+    <div className={`header ${props.transparent && 'transparent'}`}>
       <div className='header-wrapper'>
         <div className='header-left'>
           <div className='logo-icon'>
-            <Logo />
+            <Logo reverse={props.transparent} />
           </div>
           <div className='logo-title'>FLIQBOOK</div>
         </div>
@@ -54,6 +55,7 @@ function Header() {
           </ul>
         </div>
       </div>
+      <div className={`border ${isBodyMargined && 'calculated-left'}`}  />
     </div>
   );
 }
