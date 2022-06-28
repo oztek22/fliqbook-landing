@@ -9,6 +9,7 @@ import Logo from '../../atoms/svg/logo';
 import './index.scss';
 import ContactForm from '../../organisms/ContactForm';
 import Footer from '../../organisms/Footer';
+import Text from '../../atoms/text';
 
 function Home() {
   const navigate = useNavigate();
@@ -103,8 +104,8 @@ function Home() {
         rtl={true}
       ></SectionWithImage>
 
-      <div className='section-text'>In Short, flickbook helps you to shift your focus from running your Amazon business to growing your Amazon business.</div>
-
+      <Text text='In Short, flickbook helps you to shift your focus from running your Amazon business to growing your Amazon business.' />
+      
       <ContactForm
         image={<img src={require('../../atoms/images/g10.png')} alt='not found' />}></ContactForm>
       

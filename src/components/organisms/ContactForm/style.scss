@@ -1,53 +1,60 @@
 .contact-form {
-  .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 40px 0;
-    padding: 40px 0;
-  }
-  
-  .section-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 40px 0;
+  padding: 40px 0;
+
+  .section-right {
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 80px;
   }
-  
-  .section-right {
+
+  .section-left {
     display: flex;
     flex: 1 1 0;
   }
-  
-  .section-right img {
+
+  .section-left img {
     max-width: 100%;
   }
-  
-  .section-tagLiner {
-    letter-spacing: 0.01em;
-    color: #238E43;
-    flex: none;
-    margin: 20px 0;
+
+  input,
+  textarea {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
   }
-  
-  .section-header-text {
+
+  .title {
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #238e43;
+    text-align: center;
   }
-  
-  .section-subheader {
-    border-left: 4px solid #9DCDCF;
-    padding-left: 12px;
-    margin-bottom: 20px;
+
+  .subtitle {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 56px;
+    color: #353d54;
+    margin-bottom: 40px;
+    text-align: center;
   }
-  
-  .section-description {
-    margin-bottom: 20px;
+
+  .email, .query {
+    margin-bottom: 16px;
+  }
+
+  .button-container {
+    display: flex;
+    align-self: flex-end;
   }
 }

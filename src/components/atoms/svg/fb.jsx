@@ -4,7 +4,7 @@ class Fb extends Component {
   render() {
     return (
       <svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40' fill='none'>
-        <g clip-path='url(#clip0_2281_12976)'>
+        <g clipPath='url(#clip0_2281_12976)'>
           <path
             d='M37.7923 40.0002C39.0114 40.0002 40 39.0117 40 37.7925V2.20766C40 0.988281 39.0114 0 37.7923 0H2.20766C0.988125 0 0 0.988281 0 2.20766V37.7925C0 39.0117 0.988125 40.0002 2.20766 40.0002H37.7923Z'
             fill='#395185'

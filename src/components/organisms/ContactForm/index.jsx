@@ -4,16 +4,29 @@ import './style.scss';
 
 function ContactForm(props) {
   return (
-    <div className='contact-form section-header' dir='rtl' style={{backgroundColor: '#E6F5EA'}}>
-      <div className='section-left'>
-        <span className='section-tagLiner'> YOUR TIME IS VALUABLE </span>
-        <span className='section-header-text'> Get answers quick</span>
-        <span className='section-subheader'> {props.subheader}</span>
-        <span className='section-description'> {props.description}</span>
-        {props.button && <Button label='SUBMIT' onClick={props.button.onClick}></Button>}
-      </div>
+    <div className='contact-form section-with-image' style={{ backgroundColor: '#E6F5EA' }}>
+      <div className='section-left'>{props.image}</div>
       <div className='section-right'>
-        {props.image}
+        <span className='title'> YOUR TIME IS VALUABLE </span>
+        <span className='subtitle'> Get answers quick</span>
+        <span className='content'>
+          <div className='email'>
+            <div>Email</div>
+            <input type='email' name='email' placeholder='example@email.com' />
+          </div>
+          <div className='query'>
+            <div>Please tell us your query</div>
+            <textarea name='query' rows={5} placeholder='Type your message or query' />
+          </div>
+        </span>
+        <div className='button-container'>
+          <Button
+            label='SUBMIT'
+            onClick={() => {
+              console.log('Submiting data');
+            }}
+          ></Button>
+        </div>
       </div>
     </div>
   );
