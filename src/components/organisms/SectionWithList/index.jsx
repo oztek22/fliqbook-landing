@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-function SectionWithImage(props) {
+function SectionWithList(props) {
   return (
     <div className='section section-with-list'>
       {props.list.map(data => 
@@ -15,4 +15,4 @@ function SectionWithImage(props) {
   );
 }
 
-export default SectionWithImage;
+export default SectionWithList;

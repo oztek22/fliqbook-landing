@@ -1,4 +1,12 @@
 {
+  "header": {
+    "title": "Analyze Returns, Reconcile Payments and Much More",
+    "description": "Besides basic features like bookkeeping, accounting and GST filing; Fliqbook also offers advanced features like returns analysis, Amazon payments reconciliation, recurring bill payments, automated salary payments etc.",
+    "button": {
+      "label": "SIGN up for a free trial",
+      "navigateTo": "/signup"
+    }
+  },
   "sections": [
     {
       "header": "Return analysis and payments reconciliation",

@@ -1,0 +1,36 @@
+.featureWrap {
+    display: flex;
+    background-color: #19233d;
+    position: relative;
+    top: -114px;
+    left: 0;
+}
+
+.featureHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 0 60px;
+    width: 50%;
+}
+
+.featureHeader {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.featureSubtext {
+    padding-top: 20px;
+    color: #b5b9c1;
+    line-height: 30px;
+}
+
+.featureImage {
+    width: 50%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,4 +1,12 @@
 {
+  "header": {
+    "title": "Get a simple, easy to understand visual from your Amazon MTR.",
+    "description": "Fliqbook converts your Amazon MTR into beautiful charts and summary tables to get a clear visualization of your monthly sales and taxes.",
+    "button": {
+      "label": "SIGN up for a free trial",
+      "navigateTo": "/signup"
+    }
+  },
   "sections": [
     {
       "header": "Convert your amazon mTR into graphs, charts for better visualization",

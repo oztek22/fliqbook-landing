@@ -1,4 +1,12 @@
 {
+  "header": {
+    "title": "Amazon MTR to GSTR1 in just a few clicks",
+    "description": "The most frequent hassle for all Amazon sellers is to convert their Amazon MTR data into gstr1 ready format. Fliqbook does this in just a few clicks!",
+    "button": {
+      "label": "SIGN up for a free trial",
+      "navigateTo": "/signup"
+    }
+  },
   "sections": [
     {
       "header": "Convert your Amazon MTR into GSTR-1",

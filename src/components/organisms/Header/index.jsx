@@ -15,7 +15,7 @@ function Header(props) {
           <div className='logo-icon'>
             <Logo reverse={props.transparent} />
           </div>
-          <div className='logo-title'>FLIQBOOK</div>
+          <div className='logo-title'>F L I Q B O O K</div>
         </div>
         <div className='header-right'>
           <div

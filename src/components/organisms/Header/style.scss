@@ -1,7 +1,8 @@
 .header {
   position: relative;
   &.transparent {
-    background-color: #19233D;
+    background-color: transparent;
+    z-index: 1;
     .nav-link a {
       color: #fff;
     }
@@ -9,6 +10,9 @@
     .nav-link a.active {
       color: #238E43;
       ;
+    }
+    .border {
+      border: none;
     }
   }
 }

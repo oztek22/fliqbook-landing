@@ -1,0 +1,22 @@
+.sign-header {
+  padding: 45px 0;
+  @media (max-width: 768px) {
+    padding-top: 30px;
+  }
+
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #35af58;
+    margin-left: 12px;
+  }
+}

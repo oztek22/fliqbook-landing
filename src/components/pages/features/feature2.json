@@ -1,4 +1,12 @@
 {
+  "header": {
+    "title": "Already using some other accounting software for your business? Don’t worry. We’ve got you covered!",
+    "description": "You can convert your Amazon MTR into formats that can be easily imported inside all these softwares.",
+    "button": {
+      "label": "SIGN up for a free trial",
+      "navigateTo": "/signup"
+    }
+  },
   "sections": [
     {
       "header": "Amazon MTR to Tally, Vyapar, QuickBooks or Zoho",

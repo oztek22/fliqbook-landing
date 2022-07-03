@@ -1,4 +1,12 @@
 {
+  "header": {
+    "title": "Automated Financial Statements and Profit Calculation.",
+    "description": "Keeping track of the financials of your business was never this easy. Get financial statements and profit status with zero efforts!",
+    "button": {
+      "label": "SIGN up for a free trial",
+      "navigateTo": "/signup"
+    }
+  },
   "sections": [
     {
       "header": "Get Automated Financial Statements and Profit Calculation",

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../organisms/Header';
 import ContactForm from '../../organisms/ContactForm';
 import SectionWithImage from '../../organisms/SectionWithImage';
+import SectionData from '../../molecules/section-data';
 import Footer from '../../organisms/Footer';
 import { useNavigate } from 'react-router-dom';
 import feature1 from './feature1.json';
@@ -10,6 +11,7 @@ import feature3 from './feature3.json';
 import feature4 from './feature4.json';
 import feature5 from './feature5.json';
 import Text from '../../atoms/text';
+import './style.scss';
 
 function Features(props) {
   const navigate = useNavigate();
@@ -20,21 +22,44 @@ function Features(props) {
   return (
     <div>
       <Header transparent></Header>
-      {selectedFeature.sections.map((data) => 
-        <SectionWithImage
-        header={data.header}
-        description={data.description}
-        button= {data.button ? {
-          label: data.button.label,
-          onClick: () => {
-            navigate(data.button.navigateTo);
-          },
-        } : null}
-          image={<img src={require(`../../atoms/images/${data.img.src}`)} alt='not found' style={data.img.style ?? null} />}
-          rtl={data.img.pos === 1}
-          key={data.header}
-      ></SectionWithImage>
-      )}
+      <div className='featureWrap'>
+        <div className='featureHeaderContainer'>
+          <SectionData
+            header={selectedFeature.header.title}
+            description={selectedFeature.header.description}
+            button={
+              selectedFeature.header.button
+                ? {
+                    label: selectedFeature.header.button.label,
+                    onClick: () => {
+                      navigate(selectedFeature.header.button.navigateTo);
+                    },
+                  }
+                : null
+            }
+          />
+        </div>
+        <img className='featureImage' src={require('../../atoms/images/featureimage.png')} alt='not found'></img>
+      </div>
+
+      {selectedFeature.sections.map((data) => (
+        <SectionWithImage image={<img src={require(`../../atoms/images/${data.img.src}`)} alt='not found' style={data.img.style ?? null} />} rtl={data.img.pos === 1} key={data.header}>
+          <SectionData
+            header={data.header}
+            description={data.description}
+            button={
+              data.button
+                ? {
+                    label: data.button.label,
+                    onClick: () => {
+                      navigate(data.button.navigateTo);
+                    },
+                  }
+                : null
+            }
+          />
+        </SectionWithImage>
+      ))}
 
       {selectedFeature.textSection ? <Text text={selectedFeature.textSection} /> : null}
 
