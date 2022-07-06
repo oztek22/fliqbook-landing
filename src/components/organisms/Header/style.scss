@@ -3,16 +3,27 @@
   &.transparent {
     background-color: transparent;
     z-index: 1;
-    .nav-link a {
+    .nav-link .menu-item {
       color: #fff;
+
+      svg path {
+        stroke: #fff;
+      }
     }
-  
-    .nav-link a.active {
-      color: #238E43;
-      ;
+
+    .nav-link .menu-item.active {
+      color: #238e43;
+
+      svg path {
+        stroke: #238e43;
+      }
     }
     .border {
-      border: none;
+      // border: none;
+      max-width: 1280px;
+      &.calculated-left {
+        left: 0;
+      }
     }
   }
 }
@@ -70,19 +81,68 @@
     padding: 4px;
     margin: 8px;
     display: inline;
+
+    &.dropdown {
+      cursor: pointer;
+
+      .dropdown-list {
+        display: none;
+        &.open {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 0;
+          position: absolute;
+          right: 20px;
+          text-align: left;
+          box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+          border-radius: 8px;
+          background-color: #fff;
+          z-index: 2;
+        }
+
+        .list-item {
+          display: inline;
+
+          .submenu-item {
+            display: inline-block;
+            color: #19233D;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 16px;
+            text-decoration: none;
+            width: 100%;
+            box-sizing: border-box;
+            &.active {
+              font-weight: 600;
+              background-color: #F6F6F7;
+            }
+          }
+        }
+      }
+    }
   }
 
-  .nav-link a {
+  .nav-link .menu-item {
     color: #a3a7b1;
     font-weight: 400;
     font-size: 28px;
     line-height: 42px;
     text-decoration: none;
+
+    svg path {
+      stroke: #a3a7b1;
+    }
   }
 
-  .nav-link a.active {
+  .nav-link .menu-item.active {
     color: #353d54;
     font-weight: 600;
+
+    svg path {
+      stroke: #353d54;
+    }
   }
 
   .mobile-menu {
